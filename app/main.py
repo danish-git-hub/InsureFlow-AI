@@ -7,7 +7,7 @@ Run from the project root:
 Uses Streamlit's `st.navigation` API so the sidebar menu, page titles and icons
 are defined in one place below.
 """
-
+import secrets
 import sys
 from pathlib import Path
 
@@ -28,6 +28,24 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
+# Dashboard password protection
+if settings.app_access_password:
+    if not st.session_state.get("authenticated", False):
+        st.title("InsureFlow AI")
+        st.subheader("Secure Demo Login")
+
+        with st.form("login_form"):
+            password = st.text_input("Enter demo password", type="password")
+            submitted = st.form_submit_button("Login")
+
+        if submitted:
+            if secrets.compare_digest(password, settings.app_access_password):
+                st.session_state["authenticated"] = True
+                st.rerun()
+            else:
+                st.error("Incorrect password. Please try again.")
+
+        st.stop()
 load_theme()
 sidebar_brand()
 
