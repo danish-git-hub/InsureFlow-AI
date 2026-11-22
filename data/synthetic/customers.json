@@ -1,0 +1,497 @@
+[
+  {
+    "customer_code": "CUST-0001",
+    "full_name": "Rahul Sharma",
+    "date_of_birth": "1996-01-24",
+    "email": "rahul.sharma.1@example.com",
+    "phone": "+91-55501-00001",
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "customer_code": "CUST-0002",
+    "full_name": "Myra Menon",
+    "date_of_birth": "1989-03-24",
+    "email": "myra.menon.2@example.com",
+    "phone": "+91-55501-00002",
+    "city": "Bengaluru",
+    "state": "Karnataka"
+  },
+  {
+    "customer_code": "CUST-0003",
+    "full_name": "Gurpreet Iyer",
+    "date_of_birth": "1976-01-01",
+    "email": "gurpreet.iyer.3@example.com",
+    "phone": "+91-55501-00003",
+    "city": "Bengaluru",
+    "state": "Karnataka"
+  },
+  {
+    "customer_code": "CUST-0004",
+    "full_name": "Saanvi Menon",
+    "date_of_birth": "1971-10-01",
+    "email": "saanvi.menon.4@example.com",
+    "phone": "+91-55501-00004",
+    "city": "Jaipur",
+    "state": "Rajasthan"
+  },
+  {
+    "customer_code": "CUST-0005",
+    "full_name": "Aadhya Khan",
+    "date_of_birth": "1977-04-15",
+    "email": "aadhya.khan.5@example.com",
+    "phone": "+91-55501-00005",
+    "city": "Kochi",
+    "state": "Kerala"
+  },
+  {
+    "customer_code": "CUST-0006",
+    "full_name": "Myra Sharma",
+    "date_of_birth": "1993-12-14",
+    "email": "myra.sharma.6@example.com",
+    "phone": "+91-55501-00006",
+    "city": "Delhi",
+    "state": "Delhi"
+  },
+  {
+    "customer_code": "CUST-0007",
+    "full_name": "Myra Patel",
+    "date_of_birth": "1990-06-04",
+    "email": "myra.patel.7@example.com",
+    "phone": "+91-55501-00007",
+    "city": "Bengaluru",
+    "state": "Karnataka"
+  },
+  {
+    "customer_code": "CUST-0008",
+    "full_name": "Siddharth Nair",
+    "date_of_birth": "1981-06-20",
+    "email": "siddharth.nair.8@example.com",
+    "phone": "+91-55501-00008",
+    "city": "Mumbai",
+    "state": "Maharashtra"
+  },
+  {
+    "customer_code": "CUST-0009",
+    "full_name": "Aditya Mehta",
+    "date_of_birth": "1969-02-13",
+    "email": "aditya.mehta.9@example.com",
+    "phone": "+91-55501-00009",
+    "city": "Bengaluru",
+    "state": "Karnataka"
+  },
+  {
+    "customer_code": "CUST-0010",
+    "full_name": "Harleen Kulkarni",
+    "date_of_birth": "1980-10-07",
+    "email": "harleen.kulkarni.10@example.com",
+    "phone": "+91-55501-00010",
+    "city": "Bengaluru",
+    "state": "Karnataka"
+  },
+  {
+    "customer_code": "CUST-0011",
+    "full_name": "Aditya Menon",
+    "date_of_birth": "1985-02-28",
+    "email": "aditya.menon.11@example.com",
+    "phone": "+91-55501-00011",
+    "city": "Pune",
+    "state": "Maharashtra"
+  },
+  {
+    "customer_code": "CUST-0012",
+    "full_name": "Reyansh Singh",
+    "date_of_birth": "1986-08-21",
+    "email": "reyansh.singh.12@example.com",
+    "phone": "+91-55501-00012",
+    "city": "Delhi",
+    "state": "Delhi"
+  },
+  {
+    "customer_code": "CUST-0013",
+    "full_name": "Ananya Chatterjee",
+    "date_of_birth": "1981-04-22",
+    "email": "ananya.chatterjee.13@example.com",
+    "phone": "+91-55501-00013",
+    "city": "Mumbai",
+    "state": "Maharashtra"
+  },
+  {
+    "customer_code": "CUST-0014",
+    "full_name": "Arjun Das",
+    "date_of_birth": "1993-09-24",
+    "email": "arjun.das.14@example.com",
+    "phone": "+91-55501-00014",
+    "city": "Pune",
+    "state": "Maharashtra"
+  },
+  {
+    "customer_code": "CUST-0015",
+    "full_name": "Ananya Mehta",
+    "date_of_birth": "1979-05-21",
+    "email": "ananya.mehta.15@example.com",
+    "phone": "+91-55501-00015",
+    "city": "Jaipur",
+    "state": "Rajasthan"
+  },
+  {
+    "customer_code": "CUST-0016",
+    "full_name": "Pari Banerjee",
+    "date_of_birth": "2000-04-27",
+    "email": "pari.banerjee.16@example.com",
+    "phone": "+91-55501-00016",
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "customer_code": "CUST-0017",
+    "full_name": "Rohan Singh",
+    "date_of_birth": "1986-02-07",
+    "email": "rohan.singh.17@example.com",
+    "phone": "+91-55501-00017",
+    "city": "Kochi",
+    "state": "Kerala"
+  },
+  {
+    "customer_code": "CUST-0018",
+    "full_name": "Rohan Rao",
+    "date_of_birth": "1972-07-21",
+    "email": "rohan.rao.18@example.com",
+    "phone": "+91-55501-00018",
+    "city": "Ahmedabad",
+    "state": "Gujarat"
+  },
+  {
+    "customer_code": "CUST-0019",
+    "full_name": "Ishaan Joshi",
+    "date_of_birth": "1995-04-24",
+    "email": "ishaan.joshi.19@example.com",
+    "phone": "+91-55501-00019",
+    "city": "Jaipur",
+    "state": "Rajasthan"
+  },
+  {
+    "customer_code": "CUST-0020",
+    "full_name": "Gurpreet Joshi",
+    "date_of_birth": "1976-10-13",
+    "email": "gurpreet.joshi.20@example.com",
+    "phone": "+91-55501-00020",
+    "city": "Delhi",
+    "state": "Delhi"
+  },
+  {
+    "customer_code": "CUST-0021",
+    "full_name": "Pari Patel",
+    "date_of_birth": "1971-08-03",
+    "email": "pari.patel.21@example.com",
+    "phone": "+91-55501-00021",
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "customer_code": "CUST-0022",
+    "full_name": "Ayaan Patel",
+    "date_of_birth": "1993-11-14",
+    "email": "ayaan.patel.22@example.com",
+    "phone": "+91-55501-00022",
+    "city": "Kochi",
+    "state": "Kerala"
+  },
+  {
+    "customer_code": "CUST-0023",
+    "full_name": "Arjun Singh",
+    "date_of_birth": "1979-10-15",
+    "email": "arjun.singh.23@example.com",
+    "phone": "+91-55501-00023",
+    "city": "Jaipur",
+    "state": "Rajasthan"
+  },
+  {
+    "customer_code": "CUST-0024",
+    "full_name": "Navya Khan",
+    "date_of_birth": "2003-11-24",
+    "email": "navya.khan.24@example.com",
+    "phone": "+91-55501-00024",
+    "city": "Bengaluru",
+    "state": "Karnataka"
+  },
+  {
+    "customer_code": "CUST-0025",
+    "full_name": "Karthik Nair",
+    "date_of_birth": "1985-07-06",
+    "email": "karthik.nair.25@example.com",
+    "phone": "+91-55501-00025",
+    "city": "Ahmedabad",
+    "state": "Gujarat"
+  },
+  {
+    "customer_code": "CUST-0026",
+    "full_name": "Aarav Joshi",
+    "date_of_birth": "1971-03-17",
+    "email": "aarav.joshi.26@example.com",
+    "phone": "+91-55501-00026",
+    "city": "Bengaluru",
+    "state": "Karnataka"
+  },
+  {
+    "customer_code": "CUST-0027",
+    "full_name": "Meera Pillai",
+    "date_of_birth": "1991-03-12",
+    "email": "meera.pillai.27@example.com",
+    "phone": "+91-55501-00027",
+    "city": "Chennai",
+    "state": "Tamil Nadu"
+  },
+  {
+    "customer_code": "CUST-0028",
+    "full_name": "Gurpreet Pillai",
+    "date_of_birth": "2003-10-11",
+    "email": "gurpreet.pillai.28@example.com",
+    "phone": "+91-55501-00028",
+    "city": "Ahmedabad",
+    "state": "Gujarat"
+  },
+  {
+    "customer_code": "CUST-0029",
+    "full_name": "Vivaan Nair",
+    "date_of_birth": "1980-05-08",
+    "email": "vivaan.nair.29@example.com",
+    "phone": "+91-55501-00029",
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "customer_code": "CUST-0030",
+    "full_name": "Anika Fernandes",
+    "date_of_birth": "1998-02-24",
+    "email": "anika.fernandes.30@example.com",
+    "phone": "+91-55501-00030",
+    "city": "Ahmedabad",
+    "state": "Gujarat"
+  },
+  {
+    "customer_code": "CUST-0031",
+    "full_name": "Arjun Khan",
+    "date_of_birth": "1995-03-22",
+    "email": "arjun.khan.31@example.com",
+    "phone": "+91-55501-00031",
+    "city": "Ahmedabad",
+    "state": "Gujarat"
+  },
+  {
+    "customer_code": "CUST-0032",
+    "full_name": "Harleen Gupta",
+    "date_of_birth": "1987-09-28",
+    "email": "harleen.gupta.32@example.com",
+    "phone": "+91-55501-00032",
+    "city": "Kochi",
+    "state": "Kerala"
+  },
+  {
+    "customer_code": "CUST-0033",
+    "full_name": "Pooja Rao",
+    "date_of_birth": "1969-12-23",
+    "email": "pooja.rao.33@example.com",
+    "phone": "+91-55501-00033",
+    "city": "Pune",
+    "state": "Maharashtra"
+  },
+  {
+    "customer_code": "CUST-0034",
+    "full_name": "Meera Singh",
+    "date_of_birth": "1980-08-17",
+    "email": "meera.singh.34@example.com",
+    "phone": "+91-55501-00034",
+    "city": "Ahmedabad",
+    "state": "Gujarat"
+  },
+  {
+    "customer_code": "CUST-0035",
+    "full_name": "Ayaan Menon",
+    "date_of_birth": "1989-02-11",
+    "email": "ayaan.menon.35@example.com",
+    "phone": "+91-55501-00035",
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "customer_code": "CUST-0036",
+    "full_name": "Maria Khan",
+    "date_of_birth": "1989-10-08",
+    "email": "maria.khan.36@example.com",
+    "phone": "+91-55501-00036",
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "customer_code": "CUST-0037",
+    "full_name": "Arjun Reddy",
+    "date_of_birth": "1989-02-02",
+    "email": "arjun.reddy.37@example.com",
+    "phone": "+91-55501-00037",
+    "city": "Delhi",
+    "state": "Delhi"
+  },
+  {
+    "customer_code": "CUST-0038",
+    "full_name": "Arjun Pillai",
+    "date_of_birth": "1988-05-22",
+    "email": "arjun.pillai.38@example.com",
+    "phone": "+91-55501-00038",
+    "city": "Ahmedabad",
+    "state": "Gujarat"
+  },
+  {
+    "customer_code": "CUST-0039",
+    "full_name": "Saanvi Khan",
+    "date_of_birth": "1995-12-19",
+    "email": "saanvi.khan.39@example.com",
+    "phone": "+91-55501-00039",
+    "city": "Kochi",
+    "state": "Kerala"
+  },
+  {
+    "customer_code": "CUST-0040",
+    "full_name": "Farhan Menon",
+    "date_of_birth": "1950-07-07",
+    "email": "farhan.menon.40@example.com",
+    "phone": "+91-55501-00040",
+    "city": "Bengaluru",
+    "state": "Karnataka"
+  },
+  {
+    "customer_code": "CUST-0041",
+    "full_name": "Reyansh Verma",
+    "date_of_birth": "1954-07-14",
+    "email": "reyansh.verma.41@example.com",
+    "phone": "+91-55501-00041",
+    "city": "Ahmedabad",
+    "state": "Gujarat"
+  },
+  {
+    "customer_code": "CUST-0042",
+    "full_name": "Vihaan Nair",
+    "date_of_birth": "1964-07-24",
+    "email": "vihaan.nair.42@example.com",
+    "phone": "+91-55501-00042",
+    "city": "Delhi",
+    "state": "Delhi"
+  },
+  {
+    "customer_code": "CUST-0043",
+    "full_name": "Reyansh Menon",
+    "date_of_birth": "1959-04-18",
+    "email": "reyansh.menon.43@example.com",
+    "phone": "+91-55501-00043",
+    "city": "Ahmedabad",
+    "state": "Gujarat"
+  },
+  {
+    "customer_code": "CUST-0044",
+    "full_name": "Krishna Verma",
+    "date_of_birth": "1960-05-15",
+    "email": "krishna.verma.44@example.com",
+    "phone": "+91-55501-00044",
+    "city": "Pune",
+    "state": "Maharashtra"
+  },
+  {
+    "customer_code": "CUST-0045",
+    "full_name": "Arjun Mehta",
+    "date_of_birth": "1948-02-02",
+    "email": "arjun.mehta.45@example.com",
+    "phone": "+91-55501-00045",
+    "city": "Jaipur",
+    "state": "Rajasthan"
+  },
+  {
+    "customer_code": "CUST-0046",
+    "full_name": "Aarav Iyer",
+    "date_of_birth": "1958-03-14",
+    "email": "aarav.iyer.46@example.com",
+    "phone": "+91-55501-00046",
+    "city": "Ahmedabad",
+    "state": "Gujarat"
+  },
+  {
+    "customer_code": "CUST-0047",
+    "full_name": "Farhan Rao",
+    "date_of_birth": "1953-01-06",
+    "email": "farhan.rao.47@example.com",
+    "phone": "+91-55501-00047",
+    "city": "Kolkata",
+    "state": "West Bengal"
+  },
+  {
+    "customer_code": "CUST-0048",
+    "full_name": "Aarav Singh",
+    "date_of_birth": "1957-08-10",
+    "email": "aarav.singh.48@example.com",
+    "phone": "+91-55501-00048",
+    "city": "Kolkata",
+    "state": "West Bengal"
+  },
+  {
+    "customer_code": "CUST-0049",
+    "full_name": "Harleen Desai",
+    "date_of_birth": "1961-04-10",
+    "email": "harleen.desai.49@example.com",
+    "phone": "+91-55501-00049",
+    "city": "Pune",
+    "state": "Maharashtra"
+  },
+  {
+    "customer_code": "CUST-0050",
+    "full_name": "Vihaan Fernandes",
+    "date_of_birth": "1948-01-24",
+    "email": "vihaan.fernandes.50@example.com",
+    "phone": "+91-55501-00050",
+    "city": "Delhi",
+    "state": "Delhi"
+  },
+  {
+    "customer_code": "CUST-0051",
+    "full_name": "Vihaan Reddy",
+    "date_of_birth": "1950-09-28",
+    "email": "vihaan.reddy.51@example.com",
+    "phone": "+91-55501-00051",
+    "city": "Jaipur",
+    "state": "Rajasthan"
+  },
+  {
+    "customer_code": "CUST-0052",
+    "full_name": "Ananya Reddy",
+    "date_of_birth": "1949-02-28",
+    "email": "ananya.reddy.52@example.com",
+    "phone": "+91-55501-00052",
+    "city": "Chennai",
+    "state": "Tamil Nadu"
+  },
+  {
+    "customer_code": "CUST-0053",
+    "full_name": "Arjun Menon",
+    "date_of_birth": "1953-02-19",
+    "email": "arjun.menon.53@example.com",
+    "phone": "+91-55501-00053",
+    "city": "Pune",
+    "state": "Maharashtra"
+  },
+  {
+    "customer_code": "CUST-0054",
+    "full_name": "Maria Das",
+    "date_of_birth": "1964-10-03",
+    "email": "maria.das.54@example.com",
+    "phone": "+91-55501-00054",
+    "city": "Kolkata",
+    "state": "West Bengal"
+  },
+  {
+    "customer_code": "CUST-0055",
+    "full_name": "Maria Fernandes",
+    "date_of_birth": "1949-06-09",
+    "email": "maria.fernandes.55@example.com",
+    "phone": "+91-55501-00055",
+    "city": "Pune",
+    "state": "Maharashtra"
+  }
+]

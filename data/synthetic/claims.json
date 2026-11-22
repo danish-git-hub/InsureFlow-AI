@@ -1,0 +1,1513 @@
+[
+  {
+    "claim_number": "CLM-202604-0001",
+    "customer_code": "CUST-0017",
+    "customer_name": "Rohan Singh",
+    "policy_number": "IHS-2026-100017",
+    "insurance_type": "Individual Health",
+    "claim_amount": 385000,
+    "hospital_name": "Lotus Care Hospital, Bengaluru",
+    "admission_date": "2026-04-14",
+    "discharge_date": "2026-04-19",
+    "diagnosis": "Coronary artery disease - angioplasty with stent",
+    "description": "Hospitalised at Lotus Care Hospital, Bengaluru for coronary artery disease - angioplasty with stent. Requesting reimbursement of INR 385,000.",
+    "invoice_number": "INV-LCH-2026-41023",
+    "billed_amount": 385000,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 86440
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 99928
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 72378
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 62265
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 63989
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "DIAGNOSTIC_REPORT"
+    ],
+    "submitted_at": "2026-04-25T16:48:00+00:00",
+    "scenario": "EXCEEDS_SUM_INSURED",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "claim_number": "CLM-202605-0002",
+    "customer_code": "CUST-0036",
+    "customer_name": "Maria Khan",
+    "policy_number": "CIP-2026-100036",
+    "insurance_type": "Critical Illness",
+    "claim_amount": 257600,
+    "hospital_name": "Riverside General Hospital, Chennai",
+    "admission_date": "2026-05-17",
+    "discharge_date": "2026-05-20",
+    "diagnosis": "Coronary artery disease - angioplasty with stent",
+    "description": "Hospitalised at Riverside General Hospital, Chennai for coronary artery disease - angioplasty with stent. Requesting reimbursement of INR 257,600.",
+    "invoice_number": "INV-RGH-2026-41116",
+    "billed_amount": 257600,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 66685
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 58167
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 53936
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 32437
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 46375
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM"
+    ],
+    "submitted_at": "2026-05-22T12:00:00+00:00",
+    "scenario": "MISSING_DOCUMENTS",
+    "expected_outcome": "ADDITIONAL_INFORMATION_REQUIRED"
+  },
+  {
+    "claim_number": "CLM-202606-0003",
+    "customer_code": "CUST-0036",
+    "customer_name": "Maria Khan",
+    "policy_number": "CIP-2026-100036",
+    "insurance_type": "Critical Illness",
+    "claim_amount": 185300,
+    "hospital_name": "Northstar Orthopaedic Hospital, Jaipur",
+    "admission_date": "2026-06-24",
+    "discharge_date": "2026-06-26",
+    "diagnosis": "Coronary artery disease - angioplasty with stent",
+    "description": "Hospitalised at Northstar Orthopaedic Hospital, Jaipur for coronary artery disease - angioplasty with stent. Requesting reimbursement of INR 185,300.",
+    "invoice_number": "INV-NOH-2026-40612",
+    "billed_amount": 185300,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 59060
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 47413
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 25259
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 21277
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 32291
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "DIAGNOSTIC_REPORT"
+    ],
+    "submitted_at": "2026-06-28T10:30:00+00:00",
+    "scenario": "VALID",
+    "expected_outcome": "ELIGIBLE_FOR_HUMAN_REVIEW"
+  },
+  {
+    "claim_number": "CLM-202607-0004",
+    "customer_code": "CUST-0024",
+    "customer_name": "Navya Khan",
+    "policy_number": "FFS-2026-100024",
+    "insurance_type": "Family Floater",
+    "claim_amount": 149500,
+    "hospital_name": "Lotus Care Hospital, Bengaluru",
+    "admission_date": "2026-06-30",
+    "discharge_date": "2026-07-01",
+    "diagnosis": "Cosmetic rhinoplasty (aesthetic nasal reshaping)",
+    "description": "Hospitalised at Lotus Care Hospital, Bengaluru for cosmetic rhinoplasty (aesthetic nasal reshaping). Requesting reimbursement of INR 149,500.",
+    "invoice_number": "INV-LCH-2026-41373",
+    "billed_amount": 149500,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 43719
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 48198
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 20882
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 15347
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 21354
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "MEDICAL_REPORT"
+    ],
+    "submitted_at": "2026-07-07T11:59:00+00:00",
+    "scenario": "POLICY_EXCLUSION",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "claim_number": "CLM-202607-0005",
+    "customer_code": "CUST-0036",
+    "customer_name": "Maria Khan",
+    "policy_number": "CIP-2026-100036",
+    "insurance_type": "Critical Illness",
+    "claim_amount": 185300,
+    "hospital_name": "Northstar Orthopaedic Hospital, Jaipur",
+    "admission_date": "2026-06-24",
+    "discharge_date": "2026-06-26",
+    "diagnosis": "Coronary artery disease - angioplasty with stent",
+    "description": "Hospitalised at Northstar Orthopaedic Hospital, Jaipur for coronary artery disease - angioplasty with stent. Requesting reimbursement of INR 185,300. Resubmission of hospital invoice.",
+    "invoice_number": "INV-NOH-2026-40612",
+    "billed_amount": 185300,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 47156
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 45945
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 35606
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 25501
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 31092
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "MEDICAL_REPORT"
+    ],
+    "submitted_at": "2026-07-16T16:31:00+00:00",
+    "scenario": "DUPLICATE_INVOICE",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "claim_number": "CLM-202607-0006",
+    "customer_code": "CUST-0003",
+    "customer_name": "Gurpreet Iyer",
+    "policy_number": "FFS-2025-100003",
+    "insurance_type": "Family Floater",
+    "claim_amount": 30200,
+    "hospital_name": "Meadowbrook Clinic & Hospital, Delhi",
+    "admission_date": "2026-07-09",
+    "discharge_date": "2026-07-15",
+    "diagnosis": "Acute gastroenteritis with dehydration",
+    "description": "Hospitalised at Meadowbrook Clinic & Hospital, Delhi for acute gastroenteritis with dehydration. Requesting reimbursement of INR 30,200.",
+    "invoice_number": "INV-MCH-2026-40784",
+    "billed_amount": 30200,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 7089
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 7774
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 5813
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 3981
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 5543
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "DIAGNOSTIC_REPORT"
+    ],
+    "submitted_at": "2026-07-20T12:20:00+00:00",
+    "scenario": "EXPIRED_POLICY",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "claim_number": "CLM-202608-0007",
+    "customer_code": "CUST-0054",
+    "customer_name": "Maria Das",
+    "policy_number": "CIP-2026-100054",
+    "insurance_type": "Critical Illness",
+    "claim_amount": 297900,
+    "hospital_name": "Harmony Heart Institute, Hyderabad",
+    "admission_date": "2026-07-29",
+    "discharge_date": "2026-07-31",
+    "diagnosis": "Coronary artery disease - angioplasty with stent",
+    "description": "Hospitalised at Harmony Heart Institute, Hyderabad for coronary artery disease - angioplasty with stent. Requesting reimbursement of INR 297,900.",
+    "invoice_number": "INV-HHI-2026-40302",
+    "billed_amount": 297900,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 73767
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 82276
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 60564
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 34077
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 47216
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "MEDICAL_REPORT"
+    ],
+    "submitted_at": "2026-08-07T18:17:00+00:00",
+    "scenario": "VALID",
+    "expected_outcome": "ELIGIBLE_FOR_HUMAN_REVIEW"
+  },
+  {
+    "claim_number": "CLM-202608-0008",
+    "customer_code": "CUST-0053",
+    "customer_name": "Arjun Menon",
+    "policy_number": "CIP-2026-100053",
+    "insurance_type": "Critical Illness",
+    "claim_amount": 307300,
+    "hospital_name": "Sunrise Multispeciality Hospital, Hyderabad",
+    "admission_date": "2026-08-10",
+    "discharge_date": "2026-08-14",
+    "diagnosis": "Coronary artery disease - angioplasty with stent",
+    "description": "Hospitalised at Sunrise Multispeciality Hospital, Hyderabad for coronary artery disease - angioplasty with stent. Requesting reimbursement of INR 307,300.",
+    "invoice_number": "INV-SMH-2026-40464",
+    "billed_amount": 307300,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 79235
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 93623
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 44717
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 48998
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 40727
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "MEDICAL_REPORT"
+    ],
+    "submitted_at": "2026-08-17T18:43:00+00:00",
+    "scenario": "VALID",
+    "expected_outcome": "ELIGIBLE_FOR_HUMAN_REVIEW"
+  },
+  {
+    "claim_number": "CLM-202608-0009",
+    "customer_code": "CUST-0044",
+    "customer_name": "Krishna Verma",
+    "policy_number": "SCP-2026-100044",
+    "insurance_type": "Senior Citizen Health",
+    "claim_amount": 297900,
+    "hospital_name": "Harmony Heart Institute, Hyderabad",
+    "admission_date": "2026-07-29",
+    "discharge_date": "2026-07-31",
+    "diagnosis": "Coronary artery disease - angioplasty with stent",
+    "description": "Hospitalised at Harmony Heart Institute, Hyderabad for coronary artery disease - angioplasty with stent. Requesting reimbursement of INR 297,900. Resubmission of hospital invoice.",
+    "invoice_number": "INV-HHI-2026-40302",
+    "billed_amount": 297900,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 94453
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 82085
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 39976
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 26078
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 55308
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "DIAGNOSTIC_REPORT"
+    ],
+    "submitted_at": "2026-08-19T18:53:00+00:00",
+    "scenario": "DUPLICATE_INVOICE",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "claim_number": "CLM-202608-0010",
+    "customer_code": "CUST-0022",
+    "customer_name": "Ayaan Patel",
+    "policy_number": "FFS-2026-100058",
+    "insurance_type": "Family Floater",
+    "claim_amount": 125200,
+    "hospital_name": "Harmony Heart Institute, Hyderabad",
+    "admission_date": "2026-08-19",
+    "discharge_date": "2026-08-20",
+    "diagnosis": "Cholelithiasis - laparoscopic cholecystectomy",
+    "description": "Hospitalised at Harmony Heart Institute, Hyderabad for cholelithiasis - laparoscopic cholecystectomy. Requesting reimbursement of INR 125,200.",
+    "invoice_number": "INV-HHI-2026-40537",
+    "billed_amount": 125200,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 33348
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 30338
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 31546
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 13348
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 16620
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "DIAGNOSTIC_REPORT"
+    ],
+    "submitted_at": "2026-08-24T08:47:00+00:00",
+    "scenario": "VALID",
+    "expected_outcome": "ELIGIBLE_FOR_HUMAN_REVIEW"
+  },
+  {
+    "claim_number": "CLM-202609-0011",
+    "customer_code": "CUST-0025",
+    "customer_name": "Karthik Nair",
+    "policy_number": "FFS-2026-100025",
+    "insurance_type": "Family Floater",
+    "claim_amount": 62400,
+    "hospital_name": "Greenfield Medical Centre, Pune",
+    "admission_date": "2026-08-30",
+    "discharge_date": "2026-08-31",
+    "diagnosis": "Dental implant - non-accidental tooth loss",
+    "description": "Hospitalised at Greenfield Medical Centre, Pune for dental implant - non-accidental tooth loss. Requesting reimbursement of INR 62,400.",
+    "invoice_number": "INV-GMC-2026-41452",
+    "billed_amount": 62400,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 18615
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 17128
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 8888
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 6118
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 11651
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "MEDICAL_REPORT"
+    ],
+    "submitted_at": "2026-09-01T08:10:00+00:00",
+    "scenario": "POLICY_EXCLUSION",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "claim_number": "CLM-202609-0012",
+    "customer_code": "CUST-0016",
+    "customer_name": "Pari Banerjee",
+    "policy_number": "IHS-2026-100016",
+    "insurance_type": "Individual Health",
+    "claim_amount": 392000,
+    "hospital_name": "Banyan Tree Hospital, Kolkata",
+    "admission_date": "2026-08-29",
+    "discharge_date": "2026-09-03",
+    "diagnosis": "Coronary artery disease - angioplasty with stent",
+    "description": "Hospitalised at Banyan Tree Hospital, Kolkata for coronary artery disease - angioplasty with stent. Requesting reimbursement of INR 392,000.",
+    "invoice_number": "INV-BTH-2026-40996",
+    "billed_amount": 392000,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 104923
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 126246
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 60697
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 46611
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 53523
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "MEDICAL_REPORT"
+    ],
+    "submitted_at": "2026-09-08T16:22:00+00:00",
+    "scenario": "EXCEEDS_SUM_INSURED",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "claim_number": "CLM-202609-0013",
+    "customer_code": "CUST-0031",
+    "customer_name": "Arjun Khan",
+    "policy_number": "IHS-2026-100031",
+    "insurance_type": "Individual Health",
+    "claim_amount": 30100,
+    "hospital_name": "Lotus Care Hospital, Bengaluru",
+    "admission_date": "2026-09-10",
+    "discharge_date": "2026-09-15",
+    "diagnosis": "Typhoid fever",
+    "description": "Hospitalised at Lotus Care Hospital, Bengaluru for typhoid fever. Requesting reimbursement of INR 30,100.",
+    "invoice_number": "INV-LCH-2026-40665",
+    "billed_amount": 30100,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 9602
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 6679
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 5217
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 4527
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 4075
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "MEDICAL_REPORT"
+    ],
+    "submitted_at": "2026-09-16T12:36:00+00:00",
+    "scenario": "VALID",
+    "expected_outcome": "ELIGIBLE_FOR_HUMAN_REVIEW"
+  },
+  {
+    "claim_number": "CLM-202609-0014",
+    "customer_code": "CUST-0042",
+    "customer_name": "Vihaan Nair",
+    "policy_number": "IHS-2025-999901",
+    "insurance_type": "Individual Health",
+    "claim_amount": 40900,
+    "hospital_name": "Banyan Tree Hospital, Kolkata",
+    "admission_date": "2026-09-25",
+    "discharge_date": "2026-09-27",
+    "diagnosis": "Cataract - phacoemulsification with IOL",
+    "description": "Hospitalised at Banyan Tree Hospital, Kolkata for cataract - phacoemulsification with iol. Requesting reimbursement of INR 40,900.",
+    "invoice_number": "INV-BTH-2026-40863",
+    "billed_amount": 40900,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 12965
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 10462
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 4958
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 7184
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 5331
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "MEDICAL_REPORT"
+    ],
+    "submitted_at": "2026-09-30T12:21:00+00:00",
+    "scenario": "UNKNOWN_POLICY",
+    "expected_outcome": "POLICY_NOT_FOUND"
+  },
+  {
+    "claim_number": "CLM-202609-0015",
+    "customer_code": "CUST-0018",
+    "customer_name": "Rohan Rao",
+    "policy_number": "IHS-2026-100018",
+    "insurance_type": "Individual Health",
+    "claim_amount": 153900,
+    "hospital_name": "Sunrise Multispeciality Hospital, Hyderabad",
+    "admission_date": "2026-09-23",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Road traffic accident - ligament tear, knee arthroscopy",
+    "description": "Hospitalised at Sunrise Multispeciality Hospital, Hyderabad for road traffic accident - ligament tear, knee arthroscopy. Requesting reimbursement of INR 153,900.",
+    "invoice_number": "INV-SMH-2026-40490",
+    "billed_amount": 153900,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 35272
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 42754
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 22973
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 19506
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 33395
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "MEDICAL_REPORT"
+    ],
+    "submitted_at": "2026-09-30T14:08:00+00:00",
+    "scenario": "VALID",
+    "expected_outcome": "ELIGIBLE_FOR_HUMAN_REVIEW"
+  },
+  {
+    "claim_number": "CLM-202610-0016",
+    "customer_code": "CUST-0029",
+    "customer_name": "Vivaan Nair",
+    "policy_number": "IHS-2026-100029",
+    "insurance_type": "Individual Health",
+    "claim_amount": 105400,
+    "hospital_name": "Meadowbrook Clinic & Hospital, Delhi",
+    "admission_date": "2026-09-23",
+    "discharge_date": "2026-09-27",
+    "diagnosis": "Road traffic accident - ligament tear, knee arthroscopy",
+    "description": "Hospitalised at Meadowbrook Clinic & Hospital, Delhi for road traffic accident - ligament tear, knee arthroscopy. Requesting reimbursement of INR 105,400.",
+    "invoice_number": "INV-MCH-2026-40160",
+    "billed_amount": 105400,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 30812
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 23244
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 20331
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 14505
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 16508
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "DIAGNOSTIC_REPORT"
+    ],
+    "submitted_at": "2026-10-01T11:09:00+00:00",
+    "scenario": "VALID",
+    "expected_outcome": "ELIGIBLE_FOR_HUMAN_REVIEW"
+  },
+  {
+    "claim_number": "CLM-202610-0017",
+    "customer_code": "CUST-0018",
+    "customer_name": "Rohan Rao",
+    "policy_number": "IHS-2026-100018",
+    "insurance_type": "Individual Health",
+    "claim_amount": 152000,
+    "hospital_name": "Crescent Health Hospital, Ahmedabad",
+    "admission_date": "2026-09-25",
+    "discharge_date": "2026-09-28",
+    "diagnosis": "Fracture of right radius - open reduction internal fixation",
+    "description": "Hospitalised at Crescent Health Hospital, Ahmedabad for fracture of right radius - open reduction internal fixation. Requesting reimbursement of INR 152,000.",
+    "invoice_number": "INV-CHH-2026-41536",
+    "billed_amount": 115500,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 25564
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 30751
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 24106
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 13839
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 21240
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "MEDICAL_REPORT"
+    ],
+    "submitted_at": "2026-10-03T15:40:00+00:00",
+    "scenario": "INCONSISTENT_AMOUNT",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "claim_number": "CLM-202610-0018",
+    "customer_code": "CUST-0047",
+    "customer_name": "Farhan Rao",
+    "policy_number": "SCP-2026-100060",
+    "insurance_type": "Senior Citizen Health",
+    "claim_amount": 39700,
+    "hospital_name": "Riverside General Hospital, Chennai",
+    "admission_date": "2026-10-03",
+    "discharge_date": "2026-10-09",
+    "diagnosis": "Dengue fever with thrombocytopenia",
+    "description": "Hospitalised at Riverside General Hospital, Chennai for dengue fever with thrombocytopenia. Requesting reimbursement of INR 39,700.",
+    "invoice_number": "INV-RGH-2026-41609",
+    "billed_amount": 26800,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 6797
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 6144
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 5466
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 2610
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 5783
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "DIAGNOSTIC_REPORT"
+    ],
+    "submitted_at": "2026-10-11T12:35:00+00:00",
+    "scenario": "INCONSISTENT_AMOUNT",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "claim_number": "CLM-202610-0019",
+    "customer_code": "CUST-0026",
+    "customer_name": "Aarav Joshi",
+    "policy_number": "CIP-2026-100026",
+    "insurance_type": "Critical Illness",
+    "claim_amount": 183200,
+    "hospital_name": "Northstar Orthopaedic Hospital, Jaipur",
+    "admission_date": "2026-10-05",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Coronary artery disease - angioplasty with stent",
+    "description": "Hospitalised at Northstar Orthopaedic Hospital, Jaipur for coronary artery disease - angioplasty with stent. Requesting reimbursement of INR 183,200.",
+    "invoice_number": "INV-NOH-2026-41162",
+    "billed_amount": 183200,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 42172
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 38842
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 40499
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 23668
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 38019
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "DISCHARGE_SUMMARY"
+    ],
+    "submitted_at": "2026-10-12T15:28:00+00:00",
+    "scenario": "MISSING_DOCUMENTS",
+    "expected_outcome": "ADDITIONAL_INFORMATION_REQUIRED"
+  },
+  {
+    "claim_number": "CLM-202610-0020",
+    "customer_code": "CUST-0002",
+    "customer_name": "Myra Menon",
+    "policy_number": "FFS-2025-100002",
+    "insurance_type": "Family Floater",
+    "claim_amount": 18400,
+    "hospital_name": "Meadowbrook Clinic & Hospital, Delhi",
+    "admission_date": "2026-10-10",
+    "discharge_date": "2026-10-13",
+    "diagnosis": "Acute gastroenteritis with dehydration",
+    "description": "Hospitalised at Meadowbrook Clinic & Hospital, Delhi for acute gastroenteritis with dehydration. Requesting reimbursement of INR 18,400.",
+    "invoice_number": "INV-MCH-2026-40770",
+    "billed_amount": 18400,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 4005
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 4831
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 3287
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 2451
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 3826
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "DIAGNOSTIC_REPORT"
+    ],
+    "submitted_at": "2026-10-19T15:45:00+00:00",
+    "scenario": "EXPIRED_POLICY",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "claim_number": "CLM-202610-0021",
+    "customer_code": "CUST-0037",
+    "customer_name": "Arjun Reddy",
+    "policy_number": "PAG-2026-100037",
+    "insurance_type": "Personal Accident",
+    "claim_amount": 73100,
+    "hospital_name": "Greenfield Medical Centre, Pune",
+    "admission_date": "2026-10-18",
+    "discharge_date": "2026-10-20",
+    "diagnosis": "Fracture of right radius - open reduction internal fixation",
+    "description": "Hospitalised at Greenfield Medical Centre, Pune for fracture of right radius - open reduction internal fixation. Requesting reimbursement of INR 73,100.",
+    "invoice_number": "INV-GMC-2026-40313",
+    "billed_amount": 73100,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 19447
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 18594
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 12406
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 7139
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 15514
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "DIAGNOSTIC_REPORT"
+    ],
+    "submitted_at": "2026-10-24T19:09:00+00:00",
+    "scenario": "VALID",
+    "expected_outcome": "ELIGIBLE_FOR_HUMAN_REVIEW"
+  },
+  {
+    "claim_number": "CLM-202610-0022",
+    "customer_code": "CUST-0045",
+    "customer_name": "Arjun Mehta",
+    "policy_number": "CIP-2026-100045",
+    "insurance_type": "Critical Illness",
+    "claim_amount": 359300,
+    "hospital_name": "Northstar Orthopaedic Hospital, Jaipur",
+    "admission_date": "2026-10-18",
+    "discharge_date": "2026-10-19",
+    "diagnosis": "Coronary artery disease - angioplasty with stent",
+    "description": "Hospitalised at Northstar Orthopaedic Hospital, Jaipur for coronary artery disease - angioplasty with stent. Requesting reimbursement of INR 359,300.",
+    "invoice_number": "INV-NOH-2026-40712",
+    "billed_amount": 359300,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 104736
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 111371
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 45898
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 53812
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 43483
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "DIAGNOSTIC_REPORT"
+    ],
+    "submitted_at": "2026-10-26T17:50:00+00:00",
+    "scenario": "VALID",
+    "expected_outcome": "ELIGIBLE_FOR_HUMAN_REVIEW"
+  },
+  {
+    "claim_number": "CLM-202610-0023",
+    "customer_code": "CUST-0036",
+    "customer_name": "Maria Khan",
+    "policy_number": "FFS-2026-100057",
+    "insurance_type": "Family Floater",
+    "claim_amount": 55900,
+    "hospital_name": "Banyan Tree Hospital, Kolkata",
+    "admission_date": "2026-10-18",
+    "discharge_date": "2026-10-20",
+    "diagnosis": "Community-acquired pneumonia",
+    "description": "Hospitalised at Banyan Tree Hospital, Kolkata for community-acquired pneumonia. Requesting reimbursement of INR 55,900.",
+    "invoice_number": "INV-BTH-2026-40219",
+    "billed_amount": 55900,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 14712
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 15455
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 8732
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 8016
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 8985
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "MEDICAL_REPORT"
+    ],
+    "submitted_at": "2026-10-27T15:42:00+00:00",
+    "scenario": "VALID",
+    "expected_outcome": "ELIGIBLE_FOR_HUMAN_REVIEW"
+  },
+  {
+    "claim_number": "CLM-202611-0024",
+    "customer_code": "CUST-0022",
+    "customer_name": "Ayaan Patel",
+    "policy_number": "IHS-2025-999902",
+    "insurance_type": "Individual Health",
+    "claim_amount": 114000,
+    "hospital_name": "Crescent Health Hospital, Ahmedabad",
+    "admission_date": "2026-10-24",
+    "discharge_date": "2026-10-26",
+    "diagnosis": "Kidney stone - ureteroscopic lithotripsy",
+    "description": "Hospitalised at Crescent Health Hospital, Ahmedabad for kidney stone - ureteroscopic lithotripsy. Requesting reimbursement of INR 114,000.",
+    "invoice_number": "INV-CHH-2026-40923",
+    "billed_amount": 114000,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 37010
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 25713
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 16431
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 17274
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 17572
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "MEDICAL_REPORT"
+    ],
+    "submitted_at": "2026-11-01T15:41:00+00:00",
+    "scenario": "UNKNOWN_POLICY",
+    "expected_outcome": "POLICY_NOT_FOUND"
+  },
+  {
+    "claim_number": "CLM-202611-0025",
+    "customer_code": "CUST-0001",
+    "customer_name": "Rahul Sharma",
+    "policy_number": "IHS-2026-100001",
+    "insurance_type": "Individual Health",
+    "claim_amount": 85000,
+    "hospital_name": "Sunrise Multispeciality Hospital, Hyderabad",
+    "admission_date": "2026-10-28",
+    "discharge_date": "2026-10-31",
+    "diagnosis": "Acute appendicitis - laparoscopic appendectomy",
+    "description": "Hospitalised at Sunrise Multispeciality Hospital, Hyderabad for acute appendicitis - laparoscopic appendectomy. Requesting reimbursement of INR 85,000.",
+    "invoice_number": "INV-SMH-2026-40055",
+    "billed_amount": 85000,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 20738
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 24952
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 14710
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 8841
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 15759
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "DIAGNOSTIC_REPORT"
+    ],
+    "submitted_at": "2026-11-05T12:42:00+00:00",
+    "scenario": "VALID",
+    "expected_outcome": "ELIGIBLE_FOR_HUMAN_REVIEW"
+  },
+  {
+    "claim_number": "CLM-202611-0026",
+    "customer_code": "CUST-0055",
+    "customer_name": "Maria Fernandes",
+    "policy_number": "CIP-2026-100061",
+    "insurance_type": "Critical Illness",
+    "claim_amount": 204400,
+    "hospital_name": "Riverside General Hospital, Chennai",
+    "admission_date": "2026-10-28",
+    "discharge_date": "2026-11-03",
+    "diagnosis": "Coronary artery disease - angioplasty with stent",
+    "description": "Hospitalised at Riverside General Hospital, Chennai for coronary artery disease - angioplasty with stent. Requesting reimbursement of INR 204,400.",
+    "invoice_number": "INV-RGH-2026-40144",
+    "billed_amount": 204400,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 47535
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 54408
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 38332
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 36245
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 27880
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "DIAGNOSTIC_REPORT"
+    ],
+    "submitted_at": "2026-11-06T11:51:00+00:00",
+    "scenario": "VALID",
+    "expected_outcome": "ELIGIBLE_FOR_HUMAN_REVIEW"
+  },
+  {
+    "claim_number": "CLM-202611-0027",
+    "customer_code": "CUST-0042",
+    "customer_name": "Vihaan Nair",
+    "policy_number": "SCP-2026-100042",
+    "insurance_type": "Senior Citizen Health",
+    "claim_amount": 165800,
+    "hospital_name": "Silver Oak Hospital, Mumbai",
+    "admission_date": "2026-10-31",
+    "discharge_date": "2026-11-04",
+    "diagnosis": "Road traffic accident - ligament tear, knee arthroscopy",
+    "description": "Hospitalised at Silver Oak Hospital, Mumbai for road traffic accident - ligament tear, knee arthroscopy. Requesting reimbursement of INR 165,800.",
+    "invoice_number": "INV-SOH-2026-40123",
+    "billed_amount": 165800,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 43385
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 52795
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 32908
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 16834
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 19878
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "DIAGNOSTIC_REPORT"
+    ],
+    "submitted_at": "2026-11-08T15:43:00+00:00",
+    "scenario": "VALID",
+    "expected_outcome": "ELIGIBLE_FOR_HUMAN_REVIEW"
+  },
+  {
+    "claim_number": "CLM-202611-0028",
+    "customer_code": "CUST-0043",
+    "customer_name": "Reyansh Menon",
+    "policy_number": "CIP-2026-100043",
+    "insurance_type": "Critical Illness",
+    "claim_amount": 331200,
+    "hospital_name": "Sunrise Multispeciality Hospital, Hyderabad",
+    "admission_date": "2026-11-06",
+    "discharge_date": "2026-11-08",
+    "diagnosis": "Coronary artery disease - angioplasty with stent",
+    "description": "Hospitalised at Sunrise Multispeciality Hospital, Hyderabad for coronary artery disease - angioplasty with stent. Requesting reimbursement of INR 331,200.",
+    "invoice_number": "INV-SMH-2026-41175",
+    "billed_amount": 331200,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 102031
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 66214
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 60156
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 41744
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 61055
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL"
+    ],
+    "submitted_at": "2026-11-10T17:19:00+00:00",
+    "scenario": "MISSING_DOCUMENTS",
+    "expected_outcome": "ADDITIONAL_INFORMATION_REQUIRED"
+  },
+  {
+    "claim_number": "CLM-202611-0029",
+    "customer_code": "CUST-0043",
+    "customer_name": "Reyansh Menon",
+    "policy_number": "CIP-2026-100043",
+    "insurance_type": "Critical Illness",
+    "claim_amount": 330900,
+    "hospital_name": "Meadowbrook Clinic & Hospital, Delhi",
+    "admission_date": "2026-11-06",
+    "discharge_date": "2026-11-10",
+    "diagnosis": "Coronary artery disease - angioplasty with stent",
+    "description": "Hospitalised at Meadowbrook Clinic & Hospital, Delhi for coronary artery disease - angioplasty with stent. Requesting reimbursement of INR 330,900.",
+    "invoice_number": "INV-MCH-2026-40369",
+    "billed_amount": 330900,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 82216
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 90139
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 60501
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 48017
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 50027
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "MEDICAL_REPORT"
+    ],
+    "submitted_at": "2026-11-11T13:19:00+00:00",
+    "scenario": "VALID",
+    "expected_outcome": "ELIGIBLE_FOR_HUMAN_REVIEW"
+  },
+  {
+    "claim_number": "CLM-202611-0030",
+    "customer_code": "CUST-0048",
+    "customer_name": "Aarav Singh",
+    "policy_number": "SCP-2026-100048",
+    "insurance_type": "Senior Citizen Health",
+    "claim_amount": 24100,
+    "hospital_name": "Greenfield Medical Centre, Pune",
+    "admission_date": "2026-10-22",
+    "discharge_date": "2026-10-19",
+    "diagnosis": "Acute gastroenteritis with dehydration",
+    "description": "Hospitalised at Greenfield Medical Centre, Pune for acute gastroenteritis with dehydration. Requesting reimbursement of INR 24,100.",
+    "invoice_number": "INV-GMC-2026-41466",
+    "billed_amount": 24100,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 7113
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 6890
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 3975
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 2627
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 3495
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "MEDICAL_REPORT"
+    ],
+    "submitted_at": "2026-11-16T14:40:00+00:00",
+    "scenario": "INVALID_DATES",
+    "expected_outcome": "ADDITIONAL_INFORMATION_REQUIRED"
+  },
+  {
+    "claim_number": "CLM-202611-0031",
+    "customer_code": "CUST-0013",
+    "customer_name": "Ananya Chatterjee",
+    "policy_number": "IHS-2026-100013",
+    "insurance_type": "Individual Health",
+    "claim_amount": 35000,
+    "hospital_name": "Banyan Tree Hospital, Kolkata",
+    "admission_date": "2026-11-07",
+    "discharge_date": "2026-11-09",
+    "diagnosis": "Typhoid fever",
+    "description": "Hospitalised at Banyan Tree Hospital, Kolkata for typhoid fever. Requesting reimbursement of INR 35,000.",
+    "invoice_number": "INV-BTH-2026-41217",
+    "billed_amount": 35000,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 9710
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 7324
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 7667
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 3401
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 6898
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "MEDICAL_REPORT"
+    ],
+    "submitted_at": "2026-11-17T15:19:00+00:00",
+    "scenario": "WAITING_PERIOD",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "claim_number": "CLM-202611-0032",
+    "customer_code": "CUST-0014",
+    "customer_name": "Arjun Das",
+    "policy_number": "IHS-2026-100014",
+    "insurance_type": "Individual Health",
+    "claim_amount": 34000,
+    "hospital_name": "Lotus Care Hospital, Bengaluru",
+    "admission_date": "2026-11-07",
+    "discharge_date": "2026-11-09",
+    "diagnosis": "Typhoid fever",
+    "description": "Hospitalised at Lotus Care Hospital, Bengaluru for typhoid fever. Requesting reimbursement of INR 34,000.",
+    "invoice_number": "INV-LCH-2026-41290",
+    "billed_amount": 34000,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 8399
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 8013
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 6446
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 5402
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 5740
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "DIAGNOSTIC_REPORT"
+    ],
+    "submitted_at": "2026-11-18T10:15:00+00:00",
+    "scenario": "WAITING_PERIOD",
+    "expected_outcome": "REVIEW_REQUIRED"
+  },
+  {
+    "claim_number": "CLM-202611-0033",
+    "customer_code": "CUST-0051",
+    "customer_name": "Vihaan Reddy",
+    "policy_number": "SCP-2026-100051",
+    "insurance_type": "Senior Citizen Health",
+    "claim_amount": 114900,
+    "hospital_name": "Harmony Heart Institute, Hyderabad",
+    "admission_date": "2026-12-03",
+    "discharge_date": "2026-12-05",
+    "diagnosis": "Kidney stone - ureteroscopic lithotripsy",
+    "description": "Hospitalised at Harmony Heart Institute, Hyderabad for kidney stone - ureteroscopic lithotripsy. Requesting reimbursement of INR 114,900.",
+    "invoice_number": "INV-HHI-2026-41527",
+    "billed_amount": 114900,
+    "bill_items": [
+      {
+        "description": "Room & boarding",
+        "amount": 26285
+      },
+      {
+        "description": "Surgeon / consultant fees",
+        "amount": 29005
+      },
+      {
+        "description": "Pharmacy & medicines",
+        "amount": 15392
+      },
+      {
+        "description": "Diagnostics & laboratory",
+        "amount": 18493
+      },
+      {
+        "description": "OT & consumables",
+        "amount": 25725
+      }
+    ],
+    "documents": [
+      "CLAIM_FORM",
+      "HOSPITAL_BILL",
+      "DISCHARGE_SUMMARY",
+      "DIAGNOSTIC_REPORT"
+    ],
+    "submitted_at": "2026-11-19T18:25:00+00:00",
+    "scenario": "INVALID_DATES",
+    "expected_outcome": "ADDITIONAL_INFORMATION_REQUIRED"
+  }
+]
