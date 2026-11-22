@@ -17,7 +17,7 @@ The application is deployed on Render using separate Streamlit dashboard and Fas
 
 > **Important:** All customers, policies, hospitals, claims, and documents in this repository are fictional. The policy wording is synthetic and does not represent a real insurance contract.
 
-![InsureFlow AI Executive Dashboard](docs/screenshots/01_executive_dashboard.jpg)
+![InsureFlow AI Executive Dashboard](docs/screenshots/01_executive_dashboard.png)
 
 ---
 
@@ -797,15 +797,34 @@ python -m pytest -q
 
 The test count and execution time may vary as the project evolves. Only report the latest test results after executing the test suite.
 
+
 ## 14. Screenshots
 
-| | |
-|---|---|
-| ![Executive Dashboard](docs/screenshots/01_executive_dashboard.jpg) **Executive Dashboard** | ![New Claim](docs/screenshots/02_new_claim.jpg) **New Claim (via FastAPI)** |
-| ![AI Processing Center](docs/screenshots/03_ai_processing_center.jpg) **AI Processing Center** | ![Claim Details](docs/screenshots/04_claim_details_policy_clauses.jpg) **Claim Details: cited policy clauses** |
-| ![Human Review Center](docs/screenshots/05_human_review_center.jpg) **Human Review Center** | ![Reports](docs/screenshots/06_reports_analytics.jpg) **Reports & Analytics** |
-| ![Swagger](docs/screenshots/07_fastapi_swagger.jpg) **FastAPI Swagger UI** | |
+The following screenshots showcase the InsureFlow AI application, including its dashboard, multi-agent processing workflow, policy intelligence, human review capabilities, and system monitoring.
 
+### Application Dashboard and Claim Processing
+
+| Executive Dashboard | New Claim Submission |
+|---|---|
+| ![Executive Dashboard](docs/screenshots/01_executive_dashboard.png) | ![New Claim Submission](docs/screenshots/02_claim_submission.png) |
+
+| AI Processing Center | Claim Details & Policy Clauses |
+|---|---|
+| ![AI Processing Center](docs/screenshots/03_ai_processing_center.png) | ![Claim Details and Policy Clauses](docs/screenshots/04_claim_details_policy_clauses.png) |
+
+### Policy Intelligence and Human Review
+
+| Human Review Center | Policy RAG |
+|---|---|
+| ![Human Review Center](docs/screenshots/05_human_review_center.png) | ![Policy RAG](docs/screenshots/08_policy_rag.png) |
+
+### Analytics and System Monitoring
+
+| Reports & Analytics | System Status |
+|---|---|
+| ![Reports and Analytics](docs/screenshots/06_reports_analytics.png) | ![System Status](docs/screenshots/07_system_status.png) |
+
+---
 
 ## 15. Limitations
 
