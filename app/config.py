@@ -27,14 +27,21 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(PROJECT_ROOT / ".env")
 
 
-def _resolve_sqlite_url(url: str) -> str:
-    """Turn a relative SQLite path into an absolute one so the DB file is the
-    same no matter which folder the app is started from."""
+def _normalize_database_url(url: str) -> str:
+    """Normalize database URLs for SQLite and PostgreSQL."""
     prefix = "sqlite:///"
+
     if url.startswith(prefix) and not url.startswith(prefix + "/"):
         relative = url[len(prefix):]
         if relative and relative != ":memory:":
             return prefix + str((PROJECT_ROOT / relative).resolve())
+
+    if url.startswith("postgres://"):
+        return url.replace("postgres://", "postgresql+psycopg://", 1)
+
+    if url.startswith("postgresql://"):
+        return url.replace("postgresql://", "postgresql+psycopg://", 1)
+
     return url
 
 
@@ -53,7 +60,7 @@ class Settings:
     )
 
     database_url: str = field(
-        default_factory=lambda: _resolve_sqlite_url(
+        default_factory=lambda: _normalize_database_url(
             os.getenv("DATABASE_URL", "sqlite:///data/insureflow.db")
         )
     )

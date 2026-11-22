@@ -31,7 +31,9 @@ onnxruntime==1.32.0
 numpy==2.5.5
 
 # --- Database ---
+# --- Database ---
 SQLAlchemy==2.1.9
+psycopg[binary]>=3.2,<4
 
 # --- Configuration & testing ---
 python-dotenv==1.2.4
