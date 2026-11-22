@@ -65,6 +65,7 @@ class Settings:
         )
     )
     api_base_url: str = field(default_factory=lambda: os.getenv("API_BASE_URL", "http://127.0.0.1:8000"))
+    api_access_token: str = field(default_factory=lambda: os.getenv("API_ACCESS_TOKEN", ""))
     max_upload_mb: int = field(default_factory=lambda: int(os.getenv("MAX_UPLOAD_MB", "10")))
     log_level: str = field(default_factory=lambda: os.getenv("LOG_LEVEL", "INFO").upper())
 

@@ -26,6 +26,12 @@ from services.schemas import ClaimSubmission, ReviewSubmission, UploadedFile
 API = settings.api_base_url.rstrip("/") + "/api/v1"
 TIMEOUT = httpx.Timeout(120.0, connect=1.5)
 
+API_HEADERS = (
+    {"X-API-Token": settings.api_access_token}
+    if settings.api_access_token
+    else {}
+)
+
 
 def api_online() -> bool:
     try:
@@ -66,7 +72,7 @@ def submit_claim(form: ClaimSubmission, files: list[UploadedFile], process_now: 
         data["process_now"] = str(process_now).lower()
         data["document_types"] = ",".join(f.declared_type or "OTHER" for f in files)
         multipart = [("files", (f.filename, f.content, "application/pdf")) for f in files]
-        resp = httpx.post(f"{API}/claims", data=data, files=multipart, timeout=TIMEOUT)
+        resp = httpx.post(f"{API}/claims", data=data, files=multipart, headers=API_HEADERS, timeout=TIMEOUT)
         _raise_api_error(resp)
         return resp.json(), "FastAPI"
 
@@ -85,7 +91,7 @@ def submit_claim(form: ClaimSubmission, files: list[UploadedFile], process_now: 
 
 def process_claim(claim_number: str) -> tuple[dict, str]:
     if api_online():
-        resp = httpx.post(f"{API}/claims/{claim_number}/process", timeout=TIMEOUT)
+        resp = httpx.post(f"{API}/claims/{claim_number}/process", headers=API_HEADERS, timeout=TIMEOUT)
         _raise_api_error(resp)
         return resp.json(), "FastAPI"
 
@@ -97,7 +103,7 @@ def process_claim(claim_number: str) -> tuple[dict, str]:
 
 def record_review(claim_number: str, review: ReviewSubmission) -> tuple[dict, str]:
     if api_online():
-        resp = httpx.post(f"{API}/claims/{claim_number}/reviews", json=review.model_dump(mode="json"), timeout=TIMEOUT)
+        resp = httpx.post(f"{API}/claims/{claim_number}/reviews", json=review.model_dump(mode="json"), headers=API_HEADERS, timeout=TIMEOUT)
         _raise_api_error(resp)
         return resp.json(), "FastAPI"
 
@@ -111,7 +117,7 @@ def record_review(claim_number: str, review: ReviewSubmission) -> tuple[dict, st
 
 def upload_policy_document(filename: str, content: bytes) -> tuple[dict, str]:
     if api_online():
-        resp = httpx.post(f"{API}/policies/documents", files={"file": (filename, content, "application/pdf")},
+        resp = httpx.post(f"{API}/policies/documents", files={"file": (filename, content, "application/pdf")}, headers=API_HEADERS,
                           timeout=TIMEOUT)
         _raise_api_error(resp)
         return resp.json(), "FastAPI"

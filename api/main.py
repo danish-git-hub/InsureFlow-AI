@@ -9,7 +9,7 @@ Swagger UI: http://127.0.0.1:8000/docs      ReDoc: http://127.0.0.1:8000/redoc
 All errors use one JSON shape:  {"error": {"code": "...", "message": "...", "details": ...}}
 Internal errors never leak stack traces or file paths to the client; they are logged server-side.
 """
-
+import secrets
 from datetime import datetime, timezone
 
 from fastapi import FastAPI, Request
@@ -53,7 +53,30 @@ ERROR_CODES = {400: "BAD_REQUEST", 403: "FORBIDDEN", 404: "NOT_FOUND", 409: "CON
 def _error(status: int, message: str, details=None) -> JSONResponse:
     return JSONResponse(status_code=status, content={"error": {"code": ERROR_CODES.get(status, "ERROR"),
                                                                "message": message, "details": details}})
+@app.middleware("http")
+async def verify_api_access(request: Request, call_next):
+    # Keep health checks accessible to Render.
+    if request.url.path == "/health":
+        return await call_next(request)
 
+    expected_token = settings.api_access_token
+
+    if expected_token:
+        supplied_token = request.headers.get("X-API-Token", "")
+
+        if not secrets.compare_digest(supplied_token, expected_token):
+            return JSONResponse(
+                status_code=401,
+                content={
+                    "error": {
+                        "code": "UNAUTHORIZED",
+                        "message": "Valid API access token required.",
+                        "details": None,
+                    }
+                },
+            )
+
+    return await call_next(request)
 
 @app.exception_handler(ServiceError)
 async def service_error(_: Request, exc: ServiceError):
