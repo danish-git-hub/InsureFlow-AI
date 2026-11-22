@@ -1,5 +1,8 @@
 """Claim submission, documents, AI processing, status, details and agent history."""
+from app.config import PROJECT_ROOT, settings
+from pathlib import Path
 
+from fastapi.responses import FileResponse
 from datetime import date
 
 from fastapi import APIRouter, Depends, File, Form, Query, UploadFile
@@ -121,6 +124,43 @@ def get_status(claim_number: str, db: Session = Depends(get_db)):
 @router.get("/{claim_number}/documents", response_model=list[DocumentOut])
 def list_documents(claim_number: str, db: Session = Depends(get_db)):
     return _claim(db, claim_number).documents
+
+@router.get("/{claim_number}/documents/{document_id}/file")
+def download_claim_document(
+    claim_number: str,
+    document_id: int,
+    db: Session = Depends(get_db),
+):
+    """Securely download a PDF belonging to a specific claim."""
+    claim = _claim(db, claim_number)
+
+    document = next(
+        (doc for doc in claim.documents if doc.id == document_id),
+        None,
+    )
+
+    if document is None:
+        raise ServiceError("Document not found for this claim.", 404)
+
+    stored_path = Path(document.file_path)
+
+    if not stored_path.is_absolute():
+        stored_path = PROJECT_ROOT / stored_path
+
+    try:
+        resolved_path = stored_path.resolve()
+        resolved_path.relative_to(settings.data_dir.resolve())
+    except (ValueError, OSError):
+        raise ServiceError("Invalid document storage path.", 403)
+
+    if not resolved_path.is_file():
+        raise ServiceError("The PDF file is no longer available on the server.", 404)
+
+    return FileResponse(
+        path=resolved_path,
+        media_type="application/pdf",
+        filename=document.original_filename,
+    )
 
 
 @router.post("/{claim_number}/documents", response_model=list[DocumentOut], status_code=201)

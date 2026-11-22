@@ -126,6 +126,19 @@ def upload_policy_document(filename: str, content: bytes) -> tuple[dict, str]:
 
     with db_session() as s:
         return claim_service.ingest_policy_document(s, filename, content), "in-process"
+    
+def download_claim_document(claim_number: str, document_id: int) -> bytes:
+    """Download a claim PDF through the authenticated FastAPI backend."""
+    if not api_online():
+        raise ServiceError("FastAPI backend is unavailable.", 503)
+
+    resp = httpx.get(
+        f"{API}/claims/{claim_number}/documents/{document_id}/file",
+        headers=API_HEADERS,
+        timeout=TIMEOUT,
+    )
+    _raise_api_error(resp)
+    return resp.content
 
 
 def _state_summary(state: dict) -> dict:
