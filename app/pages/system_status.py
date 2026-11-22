@@ -34,8 +34,15 @@ with c2:
 with c3:
     kpi_card("FastAPI Backend", "Online" if api_ok else "Offline", settings.api_base_url)
 with c4:
-    db_name = settings.database_url.rsplit("/", 1)[-1]
-    kpi_card("Database", db_name, "SQLite via SQLAlchemy")
+    db_url = settings.database_url
+    db_name = db_url.rsplit("/", 1)[-1].split("?")[0]
+
+    if db_url.startswith(("postgresql://", "postgresql+")):
+        db_type = "PostgreSQL via SQLAlchemy"
+    else:
+        db_type = "SQLite via SQLAlchemy"
+
+    kpi_card("Database", db_name, db_type)
 
 from documents.ocr import ocr_available  # noqa: E402
 
