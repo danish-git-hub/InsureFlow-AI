@@ -560,7 +560,7 @@ InsureFlow AI uses environment variables to configure AI services, database conn
 | Variable | Default / Example | Meaning |
 |---|---|---|
 | `GOOGLE_API_KEY` | *(empty)* | Google Gemini API key. Empty means demo mode with no LLM calls. |
-| `GEMINI_MODEL` | `gemini-2.5-flash` | Chat model used for structured outputs. |
+| `GEMINI_MODEL` | `gemini-3.5-flash lite` | Chat model used for structured outputs. |
 | `GEMINI_EMBEDDING_MODEL` | `models/gemini-embedding-001` | Embedding model used for RAG when a key is configured. |
 | `DATABASE_URL` | `sqlite:///data/insureflow.db` | SQLAlchemy database connection URL. PostgreSQL is used in cloud deployment. |
 | `API_BASE_URL` | `http://127.0.0.1:8000` | FastAPI backend URL used by the dashboard. |
